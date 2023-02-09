@@ -11,7 +11,7 @@ Console.WriteLine($"Количество цифр в числе - {GetCount(num)
 int GetCount(int number)
 {
     int count = 1;
-    while (number > 10)
+    while (number >= 10)
     {
         number /= 10;
         count++;
